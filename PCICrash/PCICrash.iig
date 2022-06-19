@@ -1,0 +1,21 @@
+//
+//  PCICrash.iig
+//  PCICrash
+//
+//  Created by Zhuowei Zhang on 2022-06-19.
+//
+
+#ifndef PCICrash_h
+#define PCICrash_h
+
+#include <Availability.h>
+#include <DriverKit/IOService.iig>
+
+class PCICrash: public IOService
+{
+public:
+    virtual kern_return_t
+    Start(IOService * provider) override;
+};
+
+#endif /* PCICrash_h */
