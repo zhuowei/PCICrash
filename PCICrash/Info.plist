@@ -6,23 +6,21 @@
 	<dict>
 		<key>PCICrash</key>
 		<dict>
-			<key>CFBundleIdentifierKernel</key>
-			<string>com.apple.kpi.iokit</string>
 			<key>IOClass</key>
 			<string>IOUserService</string>
-			<key>IOMatchCategory</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+            <key>IOMatchCategory</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>IOPCIMatch</key>
+			<string>0x100c106b</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
 			<key>IOProviderClass</key>
-			<string>IOUserResources</string>
-			<key>IOResourceMatch</key>
-			<string>IOKit</string>
+			<string>IOPCIDevice</string>
 			<key>IOUserClass</key>
 			<string>PCICrash</string>
 			<key>IOUserServerName</key>
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 		</dict>
 	</dict>
-	<key>OSBundleUsageDescription</key>
-	<string></string>
 </dict>
 </plist>
