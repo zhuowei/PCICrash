@@ -11,7 +11,7 @@
             <key>IOMatchCategory</key>
             <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			<key>IOPCIMatch</key>
-			<string>0x100c106b</string>
+			<string>0x5f6914e4</string>
 			<key>IOPCITunnelCompatible</key>
 			<true/>
 			<key>IOProviderClass</key>
